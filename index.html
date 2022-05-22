@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/def4642f0d.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="header">
+        <nav><a href="index.html"><img src="/img/logo.png" alt="">
+            </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="HideMenu()"></i>
+                <ul>
+                    <li>
+                        <a href="#">HOME</a>
+                    </li>
+                    <li>
+                        <a href="#">COURSE</a>
+                    </li>
+                    <li>
+                        <a href="#">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="#">BLOG</a>
+                    </li>
+                    <li>
+                        <a href="#">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="ShowMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>World's Biggest University</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem nam inventore <br>doloribus fugiat vero
+                quidem!</p>
+            <a href="#">Visit Us To Know More</a>
+        </div>
+    </section>
+    <section class="courses">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil!</p>
+        <div class="course-box">
+            <div class="coursebox"><h3>Intermediate</h3><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis dolorem soluta enim libero consectetur culpa tempore, architecto eaque? Exercitationem, doloribus.</p></div>
+            <div class="coursebox"><h3>Graduation</h3><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis dolorem soluta enim libero consectetur culpa tempore, architecto eaque? Exercitationem, doloribus.</p></div>
+            <div class="coursebox"><h3>Post Graduation</h3><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis dolorem soluta enim libero consectetur culpa tempore, architecto eaque? Exercitationem, doloribus.</p></div>
+        </div>
+    </section>
+
+    <!--jvscrpit-->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function ShowMenu() {
+            navLinks.style.right = "0px";
+        }
+        function HideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
