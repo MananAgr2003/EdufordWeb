@@ -228,75 +228,142 @@ nav img {
            width: 25vw;
           
        }
-           @media (max-width:700px) {
-               
-                   .text-box h1{
-                       font-size: 20px;
-                   }
-                   .nav-links ul li{
-                       display: block;
-                       background-color: #f44336;
-                       
-                   }
-                   .nav-links ul{
-                       padding:30px;
-                   }
-                   .nav-links{
-                       position: absolute;
-                       background-color: #f44336;
-                       height: 100vh;
-                       width: 200px;
-                       top: 0px;
-                       right: -200px;
-                       z-index: 1;
-                       text-align: left;
-                       transition: 1s;
-                       display: none;
-                   }
-                   nav .fa-solid{
-                       display: block;
-                       color: white;
-                       margin: 10px;
-                       font-size: 22px;
-                       cursor: pointer;
-                   }
-                   .courses{
-                       height: 1000px;
-                   }
-                   .course-box{
-                       flex-wrap: wrap;
-                       padding-bottom: 0px;
-                   }
-                   .campus{
-                       height: 1030px;
-                   }
-                   .campimg{
-                       flex-wrap: wrap;
-                       padding-top: 40px;
-                   }
-                   .camp-img img{
-                       width: 50vw;
-                   }
-                   .layer{
-                       width: 56%;
-                   }
-                   .facilities{
-                       height: 1030px;
-                   }
-                   .fac{
-                      
-                       flex-direction: column;
-                       flex-wrap: wrap;
-                   }
-                   .fact{
-                       text-align: center;
-                       padding: 40px 0px 20px 0px;
-                   }
-                   .fact img{
-                        width: 45vw;
-                   }
-                   .fact p{
-                       padding: 0px 20px 0px 20px;
-                   }
+       .testimony{
+           font-family: 'poppins', Courier, monospace;
+                width: 80%;
+                height: 595px;
+                margin: auto;
+                text-align: center;
+                padding-top: 100px;
                }
+               .test{
+                   
+                   display: flex;
+                   width: 80vw;
+                   padding-top: 150px;
+                   justify-content: space-between;
+                }
+               .testi{
+                   
+                   width: 35vw;
+                   height: 230px;
+                   text-align: left;
+                   background-color: #fbe4ef;
+                   border-radius: 20px;
                
+               }
+               .testi img{
+                   height: 50px;
+                   width: 50px;
+                   border-radius: 100px;
+                   padding: 30px;
+                   display: inline-block;
+               }
+               .testi p{
+                font-size: 13px;
+                width: 402px;
+                position: relative;
+                top: -85px;
+                left: 105px;
+               }
+               .testi h5{
+                   
+                   
+                   position: relative;
+                   top: -73px;
+                   left: 105px;
+            }
+            .star{
+                position: relative;
+                top: -65px;
+                left: 105px;
+            }
+                   @media (max-width:700px) {
+                       
+                           .text-box h1{
+                               font-size: 20px;
+                           }
+                           .nav-links ul li{
+                               display: block;
+                               background-color: #f44336;
+                               
+                           }
+                           .nav-links ul{
+                               padding:30px;
+                           }
+                           .nav-links{
+                               position: absolute;
+                               background-color: #f44336;
+                               height: 100vh;
+                               width: 200px;
+                               top: 0px;
+                               right: -200px;
+                               z-index: 1;
+                               text-align: left;
+                               transition: 1s;
+                               display: none;
+                           }
+                           nav .fa-solid{
+                               display: block;
+                               color: white;
+                               margin: 10px;
+                               font-size: 22px;
+                               cursor: pointer;
+                           }
+                           .courses{
+                               height: 1000px;
+                           }
+                           .course-box{
+                               flex-wrap: wrap;
+                               padding-bottom: 0px;
+                           }
+                           .campus{
+                               height: 1030px;
+                           }
+                           .campimg{
+                               flex-wrap: wrap;
+                               padding-top: 40px;
+                           }
+                           .camp-img img{
+                               width: 50vw;
+                           }
+                           .layer{
+                               width: 56%;
+                           }
+                           .facilities{
+                               height: 1180px;
+                           }
+                           .fac{
+                              
+                               flex-direction: column;
+                               flex-wrap: wrap;
+                           }
+                           .fact{
+                               text-align: center;
+                               padding: 40px 0px 20px 0px;
+                           }
+                           .fact img{
+                                width: 45vw;
+                           }
+                           .fact p{
+                               padding: 0px 20px 0px 20px;
+                           }
+                           .testimony{
+                               height: 950px;
+                           }
+                           .test{
+                               padding-top: 50px;
+                               flex-wrap: wrap;
+                               flex-direction: column;
+                           }
+                           .testi{
+                               margin-top:50px;
+                               margin-left: 10px;
+                               height: 300px;
+                               width: 300px;
+                           }
+                           .testi p{
+                               font-size: 10px;
+                               width: 160px;
+                           }
+                       }
