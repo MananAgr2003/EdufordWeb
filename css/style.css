@@ -365,5 +365,13 @@ nav img {
                            .testi p{
                                font-size: 10px;
                                width: 160px;
+                               margin: 0;
+                           }
+                           .star{
+                               width: 100px;
+                               
+                           }
+                           h5{
+                               width: 100px;
                            }
                        }
