@@ -169,7 +169,7 @@ nav img {
     border-radius: 20px;
     position: absolute;
     height:98.6%;
-    width: 66.9%;
+    width: 67%;
     top: 0;
     left: 81px;
     transition: 0.6s;  
@@ -239,6 +239,6 @@ nav img {
             width: 50vw;
         }
         .layer{
-            width: 55%;
+            width: 56%;
         }
     }
