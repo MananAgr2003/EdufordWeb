@@ -201,7 +201,7 @@ nav img {
     text-align: center;
     padding-top: 100px;
     }
-    .fac{
+ .fac{
         position: absolute;
             left: 0;
             width: 100%;
@@ -210,13 +210,13 @@ nav img {
             justify-content: center;
             
         }
-       .fact{
+.fact{
            flex-basis: 22.5%;
            position: relative;
            padding: 0px 20px 0px 20px;
            text-align: left;
        }
-       .fact h3{
+ .fact h3{
         padding:  20px 0px 40px 0px;
         font-size: 16px;
        }
@@ -278,100 +278,155 @@ nav img {
                 top: -65px;
                 left: 105px;
             }
-                   @media (max-width:700px) {
-                       
-                           .text-box h1{
-                               font-size: 20px;
-                           }
-                           .nav-links ul li{
-                               display: block;
-                               background-color: #f44336;
-                               
-                           }
-                           .nav-links ul{
-                               padding:30px;
-                           }
-                           .nav-links{
-                               position: absolute;
-                               background-color: #f44336;
-                               height: 100vh;
-                               width: 200px;
-                               top: 0px;
-                               right: -200px;
-                               z-index: 1;
-                               text-align: left;
-                               transition: 1s;
-                               display: none;
-                           }
-                           nav .fa-solid{
-                               display: block;
-                               color: white;
-                               margin: 10px;
-                               font-size: 22px;
-                               cursor: pointer;
-                           }
-                           .courses{
-                               height: 1000px;
-                           }
-                           .course-box{
-                               flex-wrap: wrap;
-                               padding-bottom: 0px;
-                           }
-                           .campus{
-                               height: 1030px;
-                           }
-                           .campimg{
-                               flex-wrap: wrap;
-                               padding-top: 40px;
-                           }
-                           .camp-img img{
-                               width: 50vw;
-                           }
-                           .layer{
-                               width: 56%;
-                           }
-                           .facilities{
-                               height: 1180px;
-                           }
-                           .fac{
-                              
-                               flex-direction: column;
-                               flex-wrap: wrap;
-                           }
-                           .fact{
-                               text-align: center;
-                               padding: 40px 0px 20px 0px;
-                           }
-                           .fact img{
-                                width: 45vw;
-                           }
-                           .fact p{
-                               padding: 0px 20px 0px 20px;
-                           }
-                           .testimony{
-                               height: 950px;
-                           }
-                           .test{
-                               padding-top: 50px;
-                               flex-wrap: wrap;
-                               flex-direction: column;
-                           }
-                           .testi{
-                               margin-top:50px;
-                               margin-left: 10px;
-                               height: 300px;
-                               width: 300px;
-                           }
-                           .testi p{
-                               font-size: 10px;
-                               width: 160px;
-                               margin: 0;
-                           }
-                           .star{
-                               width: 100px;
-                               
-                           }
-                           h5{
-                               width: 100px;
-                           }
-                       }
+            
+ .contact{
+    font-family: 'poppins', Courier, monospace;
+    width: 80%;
+    height: 595px;
+    padding: 150px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}         
+.conimg{
+    
+    
+    height: 250px;
+    background-image:  linear-gradient(rgba(8, 8, 8, 0.7), rgba(4, 9, 30, 0.7)) ,  url('../img/banner2.jpg');
+    display: flex;
+    text-align: center;
+    padding:100px 200px 50px 200px;
+    flex-direction: column;
+    border-radius: 20px;
+    align-items: center;
+}      
+.conimg h1{
+    
+    color: white;
+    font-size: 32px;
+    height: 155px;
+}
+.btn{
+    color:#fff;
+font-family: 'poppins', Courier, monospace;
+    background: transparent;
+    width: 10vw;
+    height: 40px;
+    border: 2px solid #fff;
+    display: inline-block;
+}
+
+
+@media (max-width:700px) {
+    
+        .text-box h1{
+            font-size: 20px;
+        }
+        .nav-links ul li{
+            display: block;
+            background-color: #f44336;
+            
+        }
+        .nav-links ul{
+            padding:30px;
+        }
+        .nav-links{
+            position: absolute;
+            background-color: #f44336;
+            height: 100vh;
+            width: 200px;
+            top: 0px;
+            right: -200px;
+            z-index: 1;
+            text-align: left;
+            transition: 1s;
+            display: none;
+        }
+        nav .fa-solid{
+            display: block;
+            color: white;
+            margin: 10px;
+            font-size: 22px;
+            cursor: pointer;
+        }
+        .courses{
+            height: 1000px;
+        }
+        .course-box{
+            flex-wrap: wrap;
+            padding-bottom: 0px;
+        }
+        .campus{
+            height: 1030px;
+        }
+        .campimg{
+            flex-wrap: wrap;
+            padding-top: 40px;
+        }
+        .camp-img img{
+            width: 50vw;
+        }
+        .layer{
+            width: 56%;
+        }
+        .facilities{
+            height: 1180px;
+        }
+        .fac{
+           
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+        .fact{
+            text-align: center;
+            padding: 40px 0px 20px 0px;
+        }
+        .fact img{
+             width: 45vw;
+        }
+        .fact p{
+            padding: 0px 20px 0px 20px;
+        }
+        .testimony{
+            height: 950px;
+        }
+        .test{
+            padding-top: 50px;
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+        .testi{
+            margin-top:50px;
+            margin-left: 10px;
+            height: 300px;
+            width: 300px;
+        }
+        .testi p{
+            font-size: 10px;
+            width: 160px;
+            margin: 0;
+        }
+        .star{
+            width: 100px;
+            
+        }
+        h5{
+            width: 100px;
+        }
+        .contact{
+            width: 80%;
+            padding: 40px 0px 20px 36px;
+           
+        }
+        .conimg{
+            width: 350px;
+            height: 250px;
+            padding: 30px 1px 1px 1px;
+        }
+        .conimg h1{
+            font-size: 22px;
+        }
+        .conimg button{
+            width: 100px;
+        }
+        
+    }
