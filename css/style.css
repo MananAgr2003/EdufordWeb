@@ -216,6 +216,7 @@ nav img {
             z-index: 1;
             text-align: left;
             transition: 1s;
+            display: none;
         }
         nav .fa-solid{
             display: block;
